@@ -30,6 +30,12 @@ use Cake\ORM\TableRegistry;
  * @link https://book.cakephp.org/3.0/en/controllers/pages-controller.html
  */
 class CalcController extends AppController {
+    
+    /*
+     * @access public
+     * Ajax based param start_date, end_date
+     * @return difference b/w two dates
+     */
 
     public function index() {
 
